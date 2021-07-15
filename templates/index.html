@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">BOTSON PREDICTION</h1>
+
+    <div class="form">
+        <form action="/predict" method="POST">
+            Enter values to predict value of owner occupied homes<br><br>
+      <input type="text" name="crim" placeholder="CRIM" autofocus required><br><br>
+      <input type="text" name="zn" placeholder="ZN" required><br><br>
+      <input type="text" name="indus" placeholder="INDUS" required><br><br>
+      <input type="text" name="chas" placeholder="CHAS" required><br><br>
+      <input type="text" name="nox" placeholder="NOX" required><br><br>
+      <input type="text" name="rm" placeholder="RM" required><br><br>
+      <input type="text" name="age" placeholder="AGE" required><br><br>
+      <input type="text" name="dis" placeholder="DIS" required><br><br>
+      <input type="text" name="rad" placeholder="RAD" required><br><br>
+      <input type="text" name="tax" placeholder="TAX" required><br><br>
+      <input type="text" name="ptratio" placeholder="PT RATIO" required><br><br>
+      <input type="text" name="b" placeholder="B" required><br><br>
+      <input type="text" name="lstat" placeholder="L STAT" required><br><br>
+
+
+</select>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+{% endblock %}
