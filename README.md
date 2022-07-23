@@ -3,7 +3,8 @@
 <h1 align="center"> Botson House range  Prediction </h1>
 
 
-![Screenshot (32)](https://user-images.githubusercontent.com/102009481/177841865-7d86b86b-2849-4240-92c5-26ee85b8715b.png)
+
+![maxresdefault](https://user-images.githubusercontent.com/102009481/180612451-5d5eb0d7-8d70-4ae8-b68d-b620e277277a.jpg)
 
 
 
