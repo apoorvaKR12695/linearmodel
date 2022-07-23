@@ -13,29 +13,13 @@
 <h2> :floppy_disk: Project Files Description</h2>
 
 
-<p>This Project includes 2 executable files, 1 text files ,1 h5 file as well as 1 directories as follows:</p>
+<p>This Project includes 2 executable files, 1 pickle files and 1 txt file :</p>
 <h4>Executable Files:</h4>
 <ul>
   
-  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
-  <li><b>final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
-</ul>
-
-<h4>Output Files:</h4>
-<ul>
-  <li><b>model.h5</b> - Model contains information about the predictions of the train set, continous value.</li>
-  <li><b>result.txt</b> - Contains information about the MSE and adjusted R2 of the test set.</li>
-  
-</ul>
-
-<h4>Source Directories:</h4>
-<ul>
-  <li><b>Dataset</b> - Includes all dataset  for the training phase  and testing phase of the model in the csv format.</li>
-  
-</ul>
-
-
-  
+  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for regression operations  and generates the pickle file after execution.</li>
+  <li><b>app.py</b> -  after execution, evaluation is done on the unseen data .</li>
+    
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -63,12 +47,7 @@ Although random forest regression and linear regression follow the same concept,
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :clipboard: Execution Instruction</h2>
-<p>The order of execution of the program files is as follows:</p>
 
-
-<p><b>1) final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b></p>
-<p> This file must be executed, to define all the functions and variables required for regression operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
 
 
 
@@ -93,26 +72,7 @@ Although random forest regression and linear regression follow the same concept,
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-<h2> :books: References</h2>
-<ul>
-      <li><p>'Regression Model to Predict Bike Sharing Demand'. [Online].</p>
-      <p>Available: https://medium.com/@Nivitus./mobile-price-prediction-using-machine-learning-fa9cab6fb242
-  </li>
-  
-  <li><p>'Random Forest Regression '. [Online].</p>
-      <p>Available:https://towardsdatascience.com/random-forest-regression-5f605132d19d /</p>
-  </li>
-  <li><p>Youtube.com,'Bike Sharing Demand Analysis (Regression) | Machine Learning | Python'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=P77bDN7qAlc&t=545s</p>
-  </li>
-  <li><p>Youtube.com, 'Mobile Price Prediction Kaggle Dataset Analysis | Data Science | ML | Kaggle'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4 </p>
-  </li>
-  <li><p>End to end Case Study: Bike-sharing demand prediction'. [Online].</p>
-      <p>Available:https://towardsdatascience.com/end-to-end-case-study-bike-sharing-demand-dataset-53201926c8db</p>
-  </li>
-  
-</ul>
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
