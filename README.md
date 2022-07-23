@@ -9,6 +9,9 @@
 
 
 <p>Housing prices are an important reflection of the economy, and housing price ranges are of great interest for both buyers and sellers. In this project, house prices will be predicted given explanatory variables that cover many aspects of residential houses. The goal of this project is to create a regression model that is able to accurately estimate the price of the house given the features..</p>
+From the Exploratory Data Analysis, we could generate insight from the data. How each of the features relates to the target. Also, it can be seen from the evaluation of three models that Random Forest Regressor performed better than Linear Regression.
+
+
 
 <h2> :floppy_disk: Project Files Description</h2>
 
@@ -17,7 +20,7 @@
 <h4>Executable Files:</h4>
 <ul>
   
-  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for regression operations  and generates the pickle file after execution.</li>
+  <li><b>finalpredictionmodel.ipynb</b> - Includes all functions required for regression operations  and generates the pickle file after execution.</li>
   <li><b>app.py</b> -  after execution, evaluation is done on the unseen data .</li>
     
 </ul>
@@ -48,16 +51,6 @@ Although random forest regression and linear regression follow the same concept,
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-
-
-
-
-
-
- 
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
@@ -74,7 +67,6 @@ Although random forest regression and linear regression follow the same concept,
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 
